@@ -11,7 +11,7 @@
     <homepage>http://livestreet.ru/profile/nakahiro</homepage>
     <version>1.0.3</version>
     <requires>
-        <livestreet>1.0.0</livestreet>
+        <livestreet>1.x</livestreet>
         <plugins>
         </plugins>
     </requires>
