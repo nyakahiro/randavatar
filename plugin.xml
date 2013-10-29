@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <name>
+        <lang name="default">Randavatar</lang>
+        <lang name="russian">Randavatar</lang>
+    </name>
+    <author>
+        <lang name="default">nakahiro</lang>
+        <lang name="russian">nakahiro</lang>
+    </author>
+    <homepage>http://livestreet.ru/profile/nakahiro</homepage>
+    <version>1.0.3</version>
+    <requires>
+        <livestreet>1.0.0</livestreet>
+        <plugins>
+        </plugins>
+    </requires>
+    <description>
+        <lang name="default">If user haven't avatar - assigned random avatar</lang>
+        <lang name="russian">Если у пользователя нет аватара - присваивается случайный аватар</lang>
+    </description>
+</plugin>
