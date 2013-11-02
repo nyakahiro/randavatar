@@ -1,6 +1,6 @@
 <?php
 class PluginRandavatar_ModuleUser_EntityUser extends PluginRandavatar_Inherit_ModuleUser_EntityUser {
-    public function getProfileAvatarPath($iSize=100) {
+    public function getProfileAvatarPath($iSize) {
         if(!$sPath=$this->getProfileAvatar()){
         	
 			if((Config::Get('plugin.randavatar.gender'))) {
@@ -15,6 +15,7 @@ class PluginRandavatar_ModuleUser_EntityUser extends PluginRandavatar_Inherit_Mo
             }
             return $sRandPath;
         }else{
+        	
             return str_replace('_100x100',(($iSize==0)?"":"_{$iSize}x{$iSize}"),$sPath."?".date('His',strtotime($this->getProfileDate())));
     	}
     }
