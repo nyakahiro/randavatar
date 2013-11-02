@@ -9,7 +9,7 @@
         <lang name="russian">nakahiro</lang>
     </author>
     <homepage>http://livestreet.ru/profile/nakahiro</homepage>
-    <version>1.0.3</version>
+    <version>1.0.0</version>
     <requires>
         <livestreet>1.x</livestreet>
         <plugins>
