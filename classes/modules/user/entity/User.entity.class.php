@@ -11,7 +11,7 @@ class PluginRandavatar_ModuleUser_EntityUser extends PluginRandavatar_Inherit_Mo
 			}
 			
             if ($sPath = $this->User_UploadRandAvatar($sRandPath, $this)){
-                return str_replace('_100x100',(($iSize==0)?"":"_{$iSize}x{$iSize}"),$sPath."?".date('His',strtotime($this->getProfileDate())));
+                 return parent::getProfileAvatarPath($iSize);
             }
             return $sRandPath;
         }else{
