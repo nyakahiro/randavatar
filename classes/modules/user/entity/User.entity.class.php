@@ -11,7 +11,7 @@ class PluginRandavatar_ModuleUser_EntityUser extends PluginRandavatar_Inherit_Mo
 			}
 			
             if ($sPath = $this->User_UploadRandAvatar($sRandPath, $this)){
-                 return parent::getProfileAvatarPath($iSize);
+                return parent::getProfileAvatarPath($iSize);
             }
             return $sRandPath;
         }else{
