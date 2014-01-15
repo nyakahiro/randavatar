@@ -1,6 +1,6 @@
 <?php
 class PluginRandavatar_ModuleUser_EntityUser extends PluginRandavatar_Inherit_ModuleUser_EntityUser {
-    public function getProfileAvatarPath($iSize) {
+    public function getProfileAvatarPath($iSize=100) {
         if(!$sPath=$this->getProfileAvatar()){
         	
 			if((Config::Get('plugin.randavatar.gender'))) {
